@@ -1,0 +1,87 @@
+@media (max-width: 600px) {
+    .container {
+        width: 100%;
+    }
+    .menu {
+        flex-direction: column;
+    }
+    #site_title {
+        margin-left: 14px;
+    }
+    nav ul {
+        flex-direction: column;
+        margin-left: 0;
+    }
+    nav ul li {
+        margin-top: 0px;
+    }
+    #post-job {
+        padding: 5px 10px;
+        height: 36px;
+        line-height: 34px;
+        width: 121px;
+        margin-left: 14px;
+        border-radius: 10px;
+    }
+    /* banner */
+    #banner {
+        margin-top: 10px;
+    }
+    #banner::before {
+        content: "";
+        background-color: #000;
+        position: absolute;
+        top: 56px;
+        width: 100%;
+        height: auto;
+        opacity: 0.5;
+    }
+    
+    .banner-content {
+        width: 100%;
+        padding-top: 32px;
+        padding-bottom: 32px;
+    }
+    .banner-content h1,
+    .banner-content p {
+        padding: 0 15px;
+    }
+    .banner-btn {
+        margin-top: 26px;
+        margin-left: 11px;
+    }
+    /* banner-section */
+    .search-content{
+        text-align: center;
+    }
+    /* category section */
+    .category-content{
+       flex-direction: column;
+    }
+    .category-box{
+        width: 100%;   
+    }
+    /* job list */
+    .list-data{
+        flex-direction: column;
+    }
+    .list-btn{
+        margin-left: 20px;
+    }
+    .date-text{
+        margin-bottom: 20px;
+    }
+    /* footer */
+    .footer-content{
+        flex-direction: column;
+    }
+    .footer-data-box{
+        width: 100%;
+    }
+    .footer-content{
+        padding: 20px;
+    }
+    .signup-btn{
+        right: 104px;
+    }
+}
